@@ -1,4 +1,4 @@
-const notes = [
+[
   {
     "id": 1,
     "content": "Spread Operator",
@@ -10,5 +10,3 @@ const notes = [
     "important": true
   }
 ]
-
-exports.notes = notes

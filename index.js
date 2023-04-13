@@ -1,10 +1,10 @@
 const http = require('http') // commonjs
-const notes = require('./contenidos.js')
+const data = require('./data.json')
 
 const app = http.createServer(
   (request, response) => {
     response.writeHead(200, { 'Content-Type': 'application/json' })
-    response.end(JSON.stringify(notes))
+    response.end(JSON.stringify(data))
   }
 )
 
